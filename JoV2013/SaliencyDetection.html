@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0079)http://users.soe.ucsc.edu/~milanfar/research/rokaf/.html/SaliencyDetection.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>  </title>
+
+</head>
+
+<body>
+
+<br><table width="100%" border="0">
+  <tbody><tr>
+    <td width="30%" height="95">&nbsp;</td>
+    <td><div align="center">
+        <center></center><table width="100%" border="0" cellspacing="0.1">
+          <tbody><tr>
+             <td width="16%" height="93"><a><font size="+1" face="Verdana, Arial, Helvetica, sans-serif"></font></a><font size="+1" face="Verdana, Arial, Helvetica, sans-serif"><a></a></font><a><img src="./SaliencyDetection_files/MDSP_Logo.jpg" width="107" height="92"></a></td>
+
+
+
+            <td width="83%"><p><font size="+1" face="Verdana, Arial, Helvetica, sans-serif">UNIVERSITY
+
+                OF CALIFORNIA,<a></a></font><font size="3" face="Verdana, Arial, Helvetica, sans-serif"><br>
+
+                <font color="#000099" size="+2">SANTA CRUZ</font></font></p></td>
+
+<td width="21%"></td>
+
+            <!-- <td width="21%"><div align="right"><img src="images/MDSPseal.gif" width="107" height="92"></div></td>
+-->
+          </tr>
+        </tbody></table>
+      </div></td>
+
+  </tr>
+
+  <tr>
+    <td width="30%" height="20">&nbsp;</td>
+    <td><hr noshade="NOSHADE"></td>
+    <td width="30%">&nbsp;</td>
+  </tr>
+  
+  <tr>
+  	  <td width="30%">&nbsp;</td>
+	  <td><div align="center"><font size="+2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Visual Saliency in Noisy Images</strong></font></div></td>
+      <td width="30%">&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td width="30%">&nbsp;</td>
+	<td><div align="center"><p><font color="#666666" face="Verdana, Arial, Helvetica, sans-serif"><strong><a href="https://chelhwon.github.io/">Chelhwon Kim</a> and <a href="http://users.soe.ucsc.edu/~milanfar" target="_blank">Peyman Milanfar</a></strong></font></p></div></td>
+	<td width="30%">&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td width="30%" height="22">&nbsp;</td>
+    <td><div align="center"><strong><font size="+1" face="Verdana, Arial, Helvetica, sans-serif">Abstract</font></strong></div></td>
+    <td width="30%">&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td width="30%" height="104">&nbsp;</td>
+    <td><p><font face="Verdana, Arial, Helvetica, sans-serif">The human visual system possesses the remarkable ability to pick out salient objects in images. Even more impressive is its ability to do the very same in the presence of disturbances. In particular, the ability persists despite the presence
+of noise, poor weather, and other impediments to perfect vision. Meanwhile, noise can significantly degrade the accuracy of automated computational saliency detection algorithms. In this paper we set out to remedy this shortcoming. Existing
+computational saliency models generally assume that the given image is clean and a fundamental and explicit treatment of saliency in noisy images is missing from the literature. Here we propose a novel and statistically sound method for
+estimating saliency based on a non-parametric regression framework, and investigate the stability of saliency models for noisy images and analyze how state-of-the-art computational models respond to noisy visual stimuli. The proposed model
+of saliency at a pixel of interest is a data-dependent weighted average of dissimilarities between a center patch around that pixel and other patches. In order to further enhance the degree of accuracy in predicting the human fixations and of stability
+to noise, we incorporate a global and multi-scale approach by extending the local analysis window to the entire input image, even further to multiple scaled copies of the image. Our method consistently outperforms six other state-of-the-art models
+for both noise-free and noisy cases.</font></p>
+
+<LI><font face="Verdana, Arial, Helvetica, sans-serif"><a href="#Overview of saliency detection"><FONT FACE="arial,helvetica"></FONT>Overview</A> </LI>
+<LI><font face="Verdana, Arial, Helvetica, sans-serif"><a href="#Predicting human fixation data"><FONT FACE="arial,helvetica"></FONT>Experimental Results</A> </LI>
+<LI><font face="Verdana, Arial, Helvetica, sans-serif"><a href="#Matlab"><FONT FACE="arial,helvetica"></FONT>Matlab Toolbox (New release)</A> </LI>
+	
+	<p><i> See more details and examples in the following papers.</i></p>
+	
+	<ul><li><font face="arial,helvetica">Chelhwon Kim and Peyman Milanfar, </font> 
+	        <font face="arial,helvetica"><b><a href="http://www.journalofvision.org/content/13/4/5.abstract">"Visual Saliency in Noisy Images"</a></b></font>
+			<font face="arial,helvetica"><b><i>Journal of Vision</i> 13(4):5, March 11, 2013.</b></font>
+	</li></ul>
+
+	<ul><li><font face="arial,helvetica">Chelhwon Kim, and Peyman Milanfar, </font>
+			<font face="arial,helvetica"><b><a href="http://users.soe.ucsc.edu/~milanfar/publications/conf/SPIESaliency2012.pdf">"Finding Saliency in Noisy Images"</a>,</b></font>
+			<font face="arial,helvetica"><b><i>SPIE Conference on Computational Imaging (8269) , January 2012, Burlingame, CA</i></b></font>
+	</li></ul>
+	
+	<hr noshade="NOSHADE">
+  	</td>
+  </tr>
+  
+  <tr><td width="30%" height="22">&nbsp;</td><td width="30%">&nbsp;</td></tr>
+ 
+  <tr>
+    <td width="30%" height="22">&nbsp;</td>
+	<td> <h2><a name="Overview of saliency detection"></a><font face="Arial" color="#003399">Overview of saliency detection</font></h2> </td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+
+  <tr align="center">
+    <td width="1%">&nbsp;</td>
+    <td><center></center><table border="0"><tbody><tr><td><img src="./SaliencyDetection_files/Overview.png" width="700"></td></tr></tbody></table></td>
+	<td width="20%">&nbsp;</td>
+  </tr>
+
+  <tr><td width="30%" height="22">&nbsp;</td></tr>
+  
+  <tr>
+  	  <td width="30%" height="22">&nbsp;</td>
+	  <td><hr> <h2><a name="Predicting human fixation data"></a><font face="Arial" color="#003399">Predicting human fixation data</font></h2> </td>
+      <td width="20%">&nbsp;</td>
+  </tr>
+
+  <tr align="center">
+    <td width="1%">&nbsp;</td>
+	
+    <td><center></center>
+		<br />
+		<table border="0"><tbody><tr><td><img src="./SaliencyDetection_files/Table.png" width="400"></td></tr></tbody></table>
+		<br />
+	</td>	
+  </tr>  
+  
+  <tr align="center">  
+    <td width="1%">&nbsp;</td>
+    <td><center></center>
+		<table border="0"><tbody><tr><td><img src="./SaliencyDetection_files/Results_clean.png" width="1200"></td></tr></tbody></table>
+	</td>
+  </tr>  
+  
+  <tr>
+    <td width="30%" height="22">&nbsp;</td>	
+	<td><br /><br /> <hr><h2><a name="Stability of saliency models for noisy images"></a><font face="Arial" color="#003399">Stability of saliency models for noisy images</font></h2> </td>	
+    <td width="20%">&nbsp;</td>	
+  </tr>
+  
+  <tr align="center">
+    <td width="1%">&nbsp;</td>
+    <td><center></center>
+		<table border="0"><tbody><tr><td><img src="./SaliencyDetection_files/Results_noisy.png" width="100%"></td></tr></tbody></table>
+	</td>
+  </tr>
+  
+   <tr align="center">
+    <td width="1%">&nbsp;</td>
+    <td><center></center>
+		<table border="0"><tbody><tr><td><img src="./SaliencyDetection_files/Performance.png" width="100%"></td></tr></tbody></table>
+	</td>
+  </tr>
+  
+
+
+<tr>
+    <td width="30%" height="22">&nbsp;</td>
+	<td> <H1><a name="Matlab"></A><FONT FACE="Arial" COLOR="#003399"> Matlab Package</FONT></H1> </td>
+    <td></td>
+    <td width="30%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="30%" height="22">&nbsp;</td>
+    <td><div align="left"><font face="Verdana, Arial, Helvetica, sans-serif">The package contains the software that can be used to compute the visual saliency map, as explained in the JoV paper above.
+ The included demonstration files (demo*.m) provide the easiest way to learn how to use the code.</font></div>
+<p><b><u>Disclaimer:</u></b> This is experimental software. It is provided for <b>non-commercial</b> research purposes only. Use at your own risk. No warranty is implied by this distribution. Copyright &copy
+2010 by University of California.
+<br>
+
+
+<a href="./SaliencyCode.zip">SaliencyCode.zip</a><
+
+File updated: Mar 13 2013</p>
+<br><br><br>
+
+
+</td>
+
+
+
+  
+  <tr>
+    <td width="30%" height="18">&nbsp;</td>
+    <td><hr></td>
+    <td width="30%">&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td width="30%" height="22">&nbsp;</td>
+    <td><div align="center"><strong><font color="#FF0000" size="+1" face="Verdana, Arial, Helvetica, sans-serif">Acknowledgement</font></strong></div></td>
+    <td width="30%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="30%" height="22">&nbsp;</td>
+    <td><div align="left"><font face="Verdana, Arial, Helvetica, sans-serif">This work was supported by AFOSR Grant FA9550-07-1-0365 and NSF Grant CCF-1016018.</font></div></td>
+    <td width="30%">&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td height="22">&nbsp;</td>
+    <td><hr></td>
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td height="22">&nbsp;</td>
+    <td><div align="right"><font size="-1">last update on Mar. 13th, 2013</font></div></td>
+
+    <td>&nbsp;</td>
+  </tr>
+</tbody></table>
+
+</body></html>
