@@ -112,11 +112,12 @@ Resume: <a href="resume/CV.pdf"> CV </a>
 
 ## Publications
 
-<!---
+* Chelhwon Kim, Andrew Port, Mitesh Patel. Face-to-Music Translation Using a Distance-Preserving Generative Adversarial Network with an Auxiliary Discriminator. *arXiv preprint*, 2020. arXiv:2006.13469
+
 * Andrew Port, Chelhwon Kim, Mitesh Patel. Earballs: Neural Transmodal Translation. *arXiv preprint*, 2020. arXiv:2005.13291
 
 * Jingwei Song, Mitesh Patel, Andreas Girgensohn, Chelhwon Kim. Combining Deep Learning with Geometric Features for Image based Localization in the Gastrointestinal Tract. *arXiv preprint*, 2020. arXiv:2005.05481
--->
+
 * Chelhwon Kim, Patrick Chiu, Yulius Tjahjadi. A Web-Based Remote Assistance System with Gravity-Aware 3D Hand Gesture Visualization. *ACM International Conference on Interactive Surfaces and Spaces (ISS)*, 2019. Demo paper.
 
 * Chelhwon Kim, Patrick Chiu, Joseph de la Pena, Laurent Denoue, Jun Shingu, Yulius Tjahjadi. Toward Long Distance Hand-Document Telepresence. *ACM International Conference on Interactive Surfaces and Spaces (ISS)*, 2019. Poster paper.
