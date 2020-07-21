@@ -10,7 +10,7 @@ Resume: <a href="resume/CV.pdf"> CV </a>
   <tr>        
     <td>
       <b>
-        <a href="https://dl.acm.org/doi/10.1145/3343055.3360742">
+        <a href="https://www.fxpal.com/publications/a-web-based-remote-assistance-system-with-gravity-aware-3d-hand-gesture-visualization/">
         A Web-Based Remote Assistance System with Gravity-Aware 3D Hand Gesture Visualization - ISS'19 Demo
         </a>
         &nbsp;
