@@ -18,7 +18,7 @@ Resume: <a href="resume/CV.pdf"> CV </a>
         A Web-Based Remote Assistance System with Gravity-Aware 3D Hand Gesture Visualization - ISS'19 Demo
         </a>
         &nbsp;
-        <a href="pictures/ISS2019/VideoDemo.mp4">[Video]</a>
+        <a href="pictures/ISS2019/VideoDemo.mp4">[Video]</a><a href="pictures/ISS2019/Smart-Glass-English_no_audio.mp4">[Video (Smart glasses)]</a>
       </b> <br>
       <i>Chelhwon Kim, Patrick Chiu, Yulius Tjahjadi</i>
     </td>    
