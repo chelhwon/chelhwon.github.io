@@ -14,6 +14,19 @@ Resume: <a href="resume/CV.pdf"> CV </a>
   <tr>        
     <td>
       <b>
+        <a href="https://arxiv.org/abs/2006.13469?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+arxiv%2FQSXk+%28ExcitingAds%21+cs+updates+on+arXiv.org%29">
+        Face-to-Music Translation Using a Distance-Preserving Generative Adversarial Network with an Auxiliary Discriminator - arXiv preprint, 2020
+        </a>
+        &nbsp;
+        <a href="pictures/Face2Music/face_to_musical_note.mov">[Video]</a>
+      </b> <br>
+      <i>Chelhwon Kim, Andrew Port, Mitesh Patel</i>
+    </td>    
+    <td align="right"> <img src="pictures/Face2Music/face-to-music.png" height="100" width="100"/> </td>
+  </tr>
+  <tr>        
+    <td>
+      <b>
         <a href="https://www.fxpal.com/publications/a-web-based-remote-assistance-system-with-gravity-aware-3d-hand-gesture-visualization/">
         A Web-Based Remote Assistance System with Gravity-Aware 3D Hand Gesture Visualization - ISS'19 Demo
         </a>
