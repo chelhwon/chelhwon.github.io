@@ -18,11 +18,11 @@ Resume: <a href="resume/CV.pdf"> CV </a>
         Face-to-Music Translation Using a Distance-Preserving Generative Adversarial Network with an Auxiliary Discriminator - arXiv preprint, 2020
         </a>
         &nbsp;
-        <a href="pictures/Face2Music/face_to_musical_note.mov">[Video]</a>
+        <a href="pictures/Face2Music/face_to_musical_note.mp4">[Video]</a>
       </b> <br>
       <i>Chelhwon Kim, Andrew Port, Mitesh Patel</i>
     </td>    
-    <td align="right"> <img src="pictures/Face2Music/face-to-music.png" height="100" width="100"/> </td>
+    <td align="right"> <img src="pictures/Face2Music/face-to-music.png" height="100"/> </td>
   </tr>
   <tr>        
     <td>
@@ -35,7 +35,7 @@ Resume: <a href="resume/CV.pdf"> CV </a>
       </b> <br>
       <i>Chelhwon Kim, Patrick Chiu, Yulius Tjahjadi</i>
     </td>    
-    <td align="right"> <img src="pictures/ISS2019/thumbnail.jpg" height="100" width="100"/> </td>
+    <td align="right"> <img src="pictures/ISS2019/thumbnail.jpg" height="100"/> </td>
   </tr>
   <tr>        
     <td>
@@ -48,7 +48,7 @@ Resume: <a href="resume/CV.pdf"> CV </a>
       </b> <br>
       <i>Chelhwon Kim, Patrick Chiu, Joseph de la Pena, Laurent Denoue, Jun Shingu, Yulius Tjahjadi</i>
     </td>    
-    <td align="right"> <img src="pictures/ISS2019/teleskele.jpg" height="100" width="100"/> </td>
+    <td align="right"> <img src="pictures/ISS2019/teleskele.jpg" height="100" /> </td>
   </tr>
     <tr>        
     <td>
@@ -58,7 +58,7 @@ Resume: <a href="resume/CV.pdf"> CV </a>
       </b> <br>
       <i>Chelhwon Kim, Chidansh Bhatt, Mitesh Patel, Don Kimber, and Yulius Tjahjadi</i>
     </td>    
-    <td align="right"> <img src="pictures/IPIN2019/img.png" height="100" width="100"/> </td>
+    <td align="right"> <img src="pictures/IPIN2019/img.png" height="100" /> </td>
   </tr>
   <tr>        
     <td>
@@ -68,7 +68,7 @@ Resume: <a href="resume/CV.pdf"> CV </a>
       </b> <br>
       <i>Chelhwon Kim, Patrick Chiu, and Hideto Oda</i>
     </td>    
-    <td align="right"> <img src="pictures/ICDAR2017/result.gif" height="100" width="100"/> </td>
+    <td align="right"> <img src="pictures/ICDAR2017/result.gif" height="100" /> </td>
   </tr>
   <tr>        
     <td>
@@ -78,7 +78,7 @@ Resume: <a href="resume/CV.pdf"> CV </a>
       </b> <br>
       <i>Chelhwon Kim, and Roberto Manduchi</i>
     </td>    
-    <td align="right"> <img src="pictures/CVIU/img.png" /> </td>
+    <td align="right"> <img src="pictures/CVIU/img.png" height="100"/> </td>
   </tr>
   <tr>      
     <td>
@@ -88,7 +88,7 @@ Resume: <a href="resume/CV.pdf"> CV </a>
       </b> <br>
       <i>Chelhwon Kim, and Roberto Manduchi</i>
     </td>    
-    <td align="right"><img src="pictures/ACCV2014/img.png"/></td>
+    <td align="right"><img src="pictures/ACCV2014/img.png" height="100"/></td>
   </tr>
   <tr>      
     <td>
@@ -98,7 +98,7 @@ Resume: <a href="resume/CV.pdf"> CV </a>
       </b> <br>
       <i>Chelhwon Kim, Patrick Chiu, and Henry Tang</i>
     </td>    
-    <td align="right"><img src="pictures/DocEng2015/img.png"/></td>
+    <td align="right"><img src="pictures/DocEng2015/img.png" height="100"/></td>
   </tr>
   <tr>      
     <td>
