@@ -14,11 +14,12 @@ Resume: <a href="resume/CV.pdf"> CV </a>
   <tr>        
     <td>
       <b>
-        <a href="https://arxiv.org/abs/2006.13469?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+arxiv%2FQSXk+%28ExcitingAds%21+cs+updates+on+arXiv.org%29">
-        Face-to-Music Translation Using a Distance-Preserving Generative Adversarial Network with an Auxiliary Discriminator - arXiv preprint, 2020
-        </a>
+        <a href="http://sightsound.org/papers/2021/Chelhwon_Kim_Face-to-Music_Translation.pdf">
+        Face-to-Music Translation - CVPR Sight and Sound Workshop, 2021 
+        </a> (<a href="https://arxiv.org/abs/2006.13469?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+arxiv%2FQSXk+%28ExcitingAds%21+cs+updates+on+arXiv.org%29">arXiv preprint version </a>)
         &nbsp;
         <a href="pictures/Face2Music/face_to_musical_note.mp4">[Video]</a>
+        <a href="pictures/Face2Music/face-to-music-presentation.mp4">[Presentation]</a>
       </b> <br>
       <i>Chelhwon Kim, Andrew Port, Mitesh Patel</i>
     </td>    
