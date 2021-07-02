@@ -129,6 +129,7 @@ Resume: <a href="resume/CV.pdf"> CV </a>
 
 
 ## Publications
+* Chelhwon Kim, Andrew Port, Mitesh Patel. Face-to-Music Translation. CVPR Sight and Sound Workshop, 2021.
 
 * Chelhwon Kim, Andrew Port, Mitesh Patel. Face-to-Music Translation Using a Distance-Preserving Generative Adversarial Network with an Auxiliary Discriminator. *arXiv preprint*, 2020. arXiv:2006.13469
 
