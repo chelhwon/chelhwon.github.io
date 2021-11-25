@@ -4,7 +4,7 @@
 
 # Chelhwon Kim
 
-I am a computer vision researcher with a wide range of experience in researching and developing computer vision and machine/deep learning algorithms in areas including 3D reconstruction, indoor localization, cross-domain mapping, mixed reality, and multiple cameras calibration. I received my Ph.D. in Electrical Engineering at the University of California, Santa Cruz in 2016 under the supervision of Professor Roberto Manduchi in <a href="https://vision.soe.ucsc.edu/">the Computer Vision Lab</a>. 
+I am a computer vision researcher and worked on various computer vision projects, including indoor 3D reconstruction, table-top telepresence system, image-based indoor localization, and cross-domain mapping. I received my Ph.D. in Electrical Engineering at the University of California, Santa Cruz in 2016 under the supervision of Professor Roberto Manduchi in <a href="https://vision.soe.ucsc.edu/">the Computer Vision Lab</a>. 
 
 Resume: <a href="resume/CV.pdf"> CV </a> 
 
