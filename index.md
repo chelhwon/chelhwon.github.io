@@ -6,7 +6,7 @@
 
 I am a computer vision researcher and worked on various computer vision projects, including indoor 3D reconstruction, table-top telepresence system, image-based indoor localization, and cross-domain mapping. I received my Ph.D. in Electrical Engineering at the University of California, Santa Cruz in 2016 under the supervision of Professor Roberto Manduchi in <a href="https://vision.soe.ucsc.edu/">the Computer Vision Lab</a>. 
 
-Resume: <a href="resume/CV.pdf"> CV </a> 
+Resume: <a href="resume/Resume.pdf"> CV </a> 
 
 ## Project 
 
