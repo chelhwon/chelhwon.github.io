@@ -1,0 +1,269 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chelhwon Kim</title>
+  <meta name="description" content="Chelhwon Kim — computer vision researcher working on 3D reconstruction, digital humans, and localization.">
+  <meta property="og:title" content="Chelhwon Kim">
+  <meta property="og:description" content="Computer vision researcher — 3D reconstruction, digital humans, localization.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://chelhwon.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="wrap">
+      <a class="name" href="#">Chelhwon Kim</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="resume/Chelhwon_Kim_Resume.pdf">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <header id="about">
+      <h1>Chelhwon Kim</h1>
+      <p class="role">Computer Vision Researcher</p>
+      <p class="bio">
+        I am a computer vision researcher with 10 years of industry R&amp;D experience at the intersection of
+        3D geometric vision, generative modeling, and applied perception for human-centered systems —
+        spanning reconstruction and localization, digital human / 3DCG synthesis, and AR / spatial computing.
+        I received my Ph.D. in Electrical Engineering from the University of California, Santa Cruz in 2016,
+        advised by Professor Roberto Manduchi in the <a href="https://vision.soe.ucsc.edu/">Computer Vision Lab</a>.
+      </p>
+      <div class="links">
+        <a class="btn primary" href="resume/Chelhwon_Kim_Resume.pdf">Resume (PDF)</a>
+        <a class="btn" href="https://scholar.google.com/citations?user=cPf0CScAAAAJ&amp;hl=en">Google Scholar</a>
+        <a class="btn" href="https://www.linkedin.com/in/chelhwon-kim-0a4a5428/">LinkedIn</a>
+        <a class="btn" href="https://github.com/chelhwon">GitHub</a>
+        <a class="btn" href="mailto:cheolhwon.kim@gmail.com">Email</a>
+      </div>
+    </header>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <div class="projects">
+
+        <article class="project">
+          <div class="thumb"><img src="pictures/Face2Music/face-to-music.png" alt="Face-to-Music Translation" loading="lazy"></div>
+          <div>
+            <h3><a href="http://sightsound.org/papers/2021/Chelhwon_Kim_Face-to-Music_Translation.pdf">Face-to-Music Translation</a></h3>
+            <div class="venue">CVPR Sight and Sound Workshop, 2021</div>
+            <div class="authors"><span class="me">Chelhwon Kim</span>, Andrew Port, Mitesh Patel</div>
+            <div class="tags">
+              <a href="http://sightsound.org/papers/2021/Chelhwon_Kim_Face-to-Music_Translation.pdf">Paper</a>
+              <a href="https://arxiv.org/abs/2006.13469">arXiv</a>
+              <a href="pictures/Face2Music/face_to_musical_note.mp4">Video</a>
+              <a href="pictures/Face2Music/face-to-music-presentation.mp4">Talk</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="thumb"><img src="pictures/ISS2019/thumbnail.jpg" alt="Web-based remote assistance system" loading="lazy"></div>
+          <div>
+            <h3><a href="https://doi.org/10.1145/3343055.3360742">A Web-Based Remote Assistance System with Gravity-Aware 3D Hand Gesture Visualization</a></h3>
+            <div class="venue">ACM ISS 2019 · Demo</div>
+            <div class="authors"><span class="me">Chelhwon Kim</span>, Patrick Chiu, Yulius Tjahjadi</div>
+            <div class="tags">
+              <a href="https://doi.org/10.1145/3343055.3360742">Paper</a>
+              <a href="pictures/ISS2019/VideoDemo.mp4">Video</a>
+              <a href="pictures/ISS2019/Smart-Glass-English_no_audio.mp4">Video (smart glasses)</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="thumb"><img src="pictures/ISS2019/teleskele.jpg" alt="Hand-document telepresence" loading="lazy"></div>
+          <div>
+            <h3><a href="https://doi.org/10.1145/3343055.3360757">Toward Long Distance Hand-Document Telepresence</a></h3>
+            <div class="venue">ACM ISS 2019 · Poster</div>
+            <div class="authors"><span class="me">Chelhwon Kim</span>, Patrick Chiu, Joseph de la Pena, Laurent Denoue, Jun Shingu, Yulius Tjahjadi</div>
+            <div class="tags">
+              <a href="https://doi.org/10.1145/3343055.3360757">Paper</a>
+              <a href="pictures/ISS2019/poster_teleskele_ISS-19_v04.pdf">Poster</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="thumb"><img src="pictures/IPIN2019/img.png" alt="InFo indoor localization" loading="lazy"></div>
+          <div>
+            <h3><a href="https://doi.org/10.1109/IPIN.2019.8911805">InFo: Indoor Localization using Fusion of Visual Information from Static and Dynamic Cameras</a></h3>
+            <div class="venue">IPIN 2019</div>
+            <div class="authors"><span class="me">Chelhwon Kim</span>, Chidansh Bhatt, Mitesh Patel, Don Kimber, Yulius Tjahjadi</div>
+            <div class="tags">
+              <a href="https://doi.org/10.1109/IPIN.2019.8911805">Paper</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="thumb"><img src="pictures/ICDAR2017/result.gif" alt="Handwritten ink stroke capture" loading="lazy"></div>
+          <div>
+            <h3><a href="https://doi.org/10.1109/ICDAR.2017.209">Capturing Handwritten Ink Strokes with a Fast Video Camera</a></h3>
+            <div class="venue">ICDAR 2017</div>
+            <div class="authors"><span class="me">Chelhwon Kim</span>, Patrick Chiu, Hideto Oda</div>
+            <div class="tags">
+              <a href="https://doi.org/10.1109/ICDAR.2017.209">Paper</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="thumb"><img src="pictures/CVIU/img.png" alt="Indoor Manhattan layout recovery" loading="lazy"></div>
+          <div>
+            <h3><a href="https://doi.org/10.1016/j.cviu.2016.09.012">Indoor Manhattan Spatial Layout Recovery from Monocular Videos via Line Matching</a></h3>
+            <div class="venue">Computer Vision and Image Understanding (CVIU), 2017</div>
+            <div class="authors"><span class="me">Chelhwon Kim</span>, Roberto Manduchi</div>
+            <div class="tags">
+              <a href="https://doi.org/10.1016/j.cviu.2016.09.012">Paper</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="thumb"><img src="pictures/ACCV2014/img.png" alt="Planar structures from line correspondences" loading="lazy"></div>
+          <div>
+            <h3><a href="https://doi.org/10.1007/978-3-319-16865-4_33">Planar Structures from Line Correspondences in a Manhattan World</a></h3>
+            <div class="venue">ACCV 2014</div>
+            <div class="authors"><span class="me">Chelhwon Kim</span>, Roberto Manduchi</div>
+            <div class="tags">
+              <a href="https://doi.org/10.1007/978-3-319-16865-4_33">Paper</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="thumb"><img src="pictures/DocEng2015/img.png" alt="Document capture on a tabletop" loading="lazy"></div>
+          <div>
+            <h3><a href="https://doi.org/10.1145/2682571.2797074">High-Quality Capture of Documents on a Cluttered Tabletop with a 4K Video Camera</a></h3>
+            <div class="venue">ACM DocEng 2015</div>
+            <div class="authors"><span class="me">Chelhwon Kim</span>, Patrick Chiu, Henry Tang</div>
+            <div class="tags">
+              <a href="https://doi.org/10.1145/2682571.2797074">Paper</a>
+              <a href="Fxpal.html">Project page</a>
+              <a href="https://www.youtube.com/watch?v=km5Md0E3S1U">Video</a>
+              <a href="images/FXPAL/kim_poster_DocEng-2014_v07.png">Poster</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="thumb"><img src="pictures/JOV/Icon.gif" alt="Visual saliency in noisy images" loading="lazy"></div>
+          <div>
+            <h3><a href="JoV2013/SaliencyDetection.html">Visual Saliency in Noisy Images</a></h3>
+            <div class="venue">Journal of Vision, 2013</div>
+            <div class="authors"><span class="me">Chelhwon Kim</span>, Peyman Milanfar</div>
+            <div class="tags">
+              <a href="https://doi.org/10.1167/13.4.5">Paper</a>
+              <a href="JoV2013/SaliencyDetection.html">Project page</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="thumb"><img src="images/ISRC/img.png" alt="Service robot recognizing 3D objects" loading="lazy"></div>
+          <div>
+            <h3><a href="previous_projects.html#isrc">Dependable Statistical Fusion for 3D Object Recognition and Pose Estimation</a></h3>
+            <div class="venue">Intelligent Systems Research Center, Sungkyunkwan University · 2009 – 2010</div>
+            <div class="authors">Recognition and pose estimation of 3D objects for service robots</div>
+            <div class="tags">
+              <a href="previous_projects.html#isrc">Project details</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      <p style="margin-top:20px"><a href="previous_projects.html">More previous projects →</a></p>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+
+      <div class="year">2021</div>
+      <ul class="pubs">
+        <li><span class="t"><a href="http://sightsound.org/papers/2021/Chelhwon_Kim_Face-to-Music_Translation.pdf">Face-to-Music Translation.</a></span> <span class="a"><span class="me">C. Kim</span>, A. Port, M. Patel.</span> <span class="v">CVPR Sight and Sound Workshop</span>, 2021.</li>
+      </ul>
+
+      <div class="year">2020</div>
+      <ul class="pubs">
+        <li><span class="t"><a href="https://arxiv.org/abs/2006.13469">Face-to-Music Translation Using a Distance-Preserving Generative Adversarial Network with an Auxiliary Discriminator.</a></span> <span class="a"><span class="me">C. Kim</span>, A. Port, M. Patel.</span> <span class="v">arXiv:2006.13469</span>.</li>
+        <li><span class="t"><a href="https://arxiv.org/abs/2005.13291">Earballs: Neural Transmodal Translation.</a></span> <span class="a">A. Port, <span class="me">C. Kim</span>, M. Patel.</span> <span class="v">arXiv:2005.13291</span>.</li>
+        <li><span class="t"><a href="https://arxiv.org/abs/2005.05481">Combining Deep Learning with Geometric Features for Image based Localization in the Gastrointestinal Tract.</a></span> <span class="a">J. Song, M. Patel, A. Girgensohn, <span class="me">C. Kim</span>.</span> <span class="v">arXiv:2005.05481</span>.</li>
+      </ul>
+
+      <div class="year">2019</div>
+      <ul class="pubs">
+        <li><span class="t"><a href="https://doi.org/10.1145/3343055.3360742">A Web-Based Remote Assistance System with Gravity-Aware 3D Hand Gesture Visualization.</a></span> <span class="a"><span class="me">C. Kim</span>, P. Chiu, Y. Tjahjadi.</span> <span class="v">ACM ISS</span> (Demo).</li>
+        <li><span class="t"><a href="https://doi.org/10.1145/3343055.3360757">Toward Long Distance Hand-Document Telepresence.</a></span> <span class="a"><span class="me">C. Kim</span>, P. Chiu, J. de la Pena, L. Denoue, J. Shingu, Y. Tjahjadi.</span> <span class="v">ACM ISS</span> (Poster).</li>
+        <li><span class="t"><a href="https://doi.org/10.1109/IPIN.2019.8911805">InFo: Indoor Localization using Fusion of Visual Information from Static and Dynamic Cameras.</a></span> <span class="a"><span class="me">C. Kim</span>, C. Bhatt, M. Patel, D. Kimber, Y. Tjahjadi.</span> <span class="v">IPIN</span>.</li>
+        <li><span class="t"><a href="https://doi.org/10.1145/3343031.3350583">CamaLeon: Smart Camera for Conferencing in the Wild.</a></span> <span class="a">L. Denoue, S. Carter, <span class="me">C. Kim</span>.</span> <span class="v">ACM Multimedia</span> (Demo).</li>
+      </ul>
+
+      <div class="year">2018</div>
+      <ul class="pubs">
+        <li><span class="t"><a href="https://doi.org/10.1145/3279778.3279907">Recognizing Gestures on Projected Button Widgets with an RGB-D Camera Using a CNN.</a></span> <span class="a">P. Chiu, <span class="me">C. Kim</span>, H. Oda.</span> <span class="v">ACM ISS</span>.</li>
+      </ul>
+
+      <div class="year">2017</div>
+      <ul class="pubs">
+        <li><span class="t"><a href="https://doi.org/10.1109/ICDAR.2017.209">Capturing Handwritten Ink Strokes with a Fast Video Camera.</a></span> <span class="a"><span class="me">C. Kim</span>, P. Chiu, H. Oda.</span> <span class="v">ICDAR</span>.</li>
+        <li><span class="t"><a href="https://doi.org/10.1109/PERCOM.2017.7917861">Lift: Using Projected Coded Light for Finger Tracking and Device Augmentation.</a></span> <span class="a">S. Ma, Q. Liu, <span class="me">C. Kim</span>, P. Sheu.</span> <span class="v">PerCom</span>.</li>
+      </ul>
+
+      <div class="year">2016</div>
+      <ul class="pubs">
+        <li><span class="t"><a href="https://doi.org/10.1016/j.cviu.2016.09.012">Indoor Manhattan Spatial Layout Recovery from Monocular Videos via Line Matching.</a></span> <span class="a"><span class="me">C. Kim</span>, R. Manduchi.</span> <span class="v">Computer Vision and Image Understanding (CVIU)</span>.</li>
+      </ul>
+
+      <div class="year">2015</div>
+      <ul class="pubs">
+        <li><span class="t"><a href="https://doi.org/10.1145/2733373.2807400">Evolution of a Tabletop Telepresence System through Art and Technology.</a></span> <span class="a">T. Dunnigan, J. Doherty, D. Avrahami, J. Biehl, P. Chiu, <span class="me">C. Kim</span>, Q. Liu, H. Tang, L. Wilcox.</span> <span class="v">ACM Multimedia</span>.</li>
+        <li><span class="t"><a href="https://doi.org/10.1145/2682571.2797074">High-Quality Capture of Documents on a Cluttered Tabletop with a 4K Video Camera.</a></span> <span class="a"><span class="me">C. Kim</span>, P. Chiu, H. Tang.</span> <span class="v">ACM DocEng</span>.</li>
+      </ul>
+
+      <div class="year">2014</div>
+      <ul class="pubs">
+        <li><span class="t"><a href="https://doi.org/10.1007/978-3-319-16865-4_33">Planar Structures from Line Correspondences in a Manhattan World.</a></span> <span class="a"><span class="me">C. Kim</span>, R. Manduchi.</span> <span class="v">ACCV</span>.</li>
+      </ul>
+
+      <div class="year">2013</div>
+      <ul class="pubs">
+        <li><span class="t"><a href="https://doi.org/10.1007/978-3-319-05167-3_8">Dewarping Book Page Spreads Captured with a Mobile Phone Camera.</a></span> <span class="a"><span class="me">C. Kim</span>, P. Chiu, S. Chandra.</span> <span class="v">CBDAR</span>.</li>
+        <li><span class="t"><a href="https://doi.org/10.1167/13.4.5">Visual Saliency in Noisy Images.</a></span> <span class="a"><span class="me">C. Kim</span>, P. Milanfar.</span> <span class="v">Journal of Vision 13(4):5</span>.</li>
+      </ul>
+
+      <div class="year">2012</div>
+      <ul class="pubs">
+        <li><span class="t"><a href="https://doi.org/10.1117/12.905760">Finding Saliency in Noisy Images.</a></span> <span class="a"><span class="me">C. Kim</span>, P. Milanfar.</span> <span class="v">SPIE Computational Imaging (8269)</span>.</li>
+      </ul>
+
+      <div class="year">2008 and earlier</div>
+      <ul class="pubs">
+        <li><span class="t"><a href="https://doi.org/10.1016/j.imavis.2008.01.006">Using Structured Light for Efficient Depth Edge Detection.</a></span> <span class="a">J. Y. Park, <span class="me">C. Kim</span>, J. K. Na, J. H. Yi, M. Turk.</span> <span class="v">Image and Vision Computing 26(11)</span>, 2008.</li>
+        <li><span class="t"><a href="https://doi.org/10.1007/11595755_94">Efficient Depth Edge Detection using Structured Light.</a></span> <span class="a">J. Y. Park, <span class="me">C. Kim</span>, J. H. Yi, M. Turk.</span> <span class="v">LNCS 2869</span>, 2005.</li>
+        <li><span class="t"><a href="https://doi.org/10.1109/CVPR.2005.536">Structured Light based Depth Edge Detection for Object Shape Recovery.</a></span> <span class="a"><span class="me">C. Kim</span>, J. Y. Park, J. H. Yi, M. Turk.</span> <span class="v">IEEE CVPR Workshop on Projector-Camera Systems</span>, 2005.</li>
+        <li><span class="t">A 2D Plane of RGB Color Space for Color Histogram based Skin Color Segmentation.</span> <span class="a">J. H. Yi, D. Y. Lee, <span class="me">C. Kim</span>.</span> <span class="v">ACCV</span>, 2003.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© {{ site.time | date: '%Y' }} Chelhwon Kim</div>
+  </footer>
+</body>
+</html>
